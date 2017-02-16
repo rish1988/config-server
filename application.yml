@@ -27,10 +27,12 @@ words: ran,knew,had,saw,bought
 
 spring:
   profiles: adjective
- words: reasonable,leaky,suspicious,ordinary,unlikely
+words: reasonable,leaky,suspicious,ordinary,unlikely
  
  ---
  
- spring: 
-   profiles: article
- words: a,the
+spring: 
+  profiles: article
+words: a,the
+
+---
