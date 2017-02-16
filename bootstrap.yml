@@ -45,5 +45,7 @@ spring:
   profiles: sentence
   application:
     name: sentence-service
-
+server:
+  port: 8020
+  
 ---
