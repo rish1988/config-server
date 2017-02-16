@@ -41,4 +41,3 @@ words: a,the
 
 spring: 
   profiles: sentence
- words:
