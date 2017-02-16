@@ -23,8 +23,6 @@ spring:
   application:
     name: noun-service
 words: boat,book,vote,seat,backpack,partition,groundhog
-server:
-  port=${PORT:${SERVER_PORT:0}}
 eureka:
   instance:
     instanceId: ${spring.cloud.client.hostname}:${spring.application.name}:${spring.application.instance_id:${random.value}}
