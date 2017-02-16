@@ -11,6 +11,19 @@ spring:
   profiles: noun
   application:
     name: noun-service
+eureka:
+  instance:
+    instanceId: ${spring.cloud.client.hostname}:${spring.application.name}:${spring.application.instance_id:${random.value}} 
+    
+--- 
+
+spring:
+  profiles: default
+  application:
+    name: noun-service
+eureka:
+  instance:
+    instanceId: ${spring.cloud.client.hostname}:${spring.application.name}:${spring.application.instance_id:${random.value}} 
 
 ---
 
