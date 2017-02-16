@@ -56,6 +56,14 @@ words: a,the
 ---
 
 spring: 
+  profiles: subject
+  application:
+    name: subject-service
+words: I,You,He,She,It
+
+---
+
+spring: 
   profiles: sentence
   application:
     name: sentence-service
