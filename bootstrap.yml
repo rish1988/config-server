@@ -1,0 +1,36 @@
+---
+
+spring:
+  profiles: article
+  application:
+    name: article-service
+    
+---
+
+spring:
+  profiles: noun
+  application:
+    name: noun-service
+
+---
+
+spring:
+  profiles: adjective
+  application:
+    name: adjective-service
+
+---
+
+spring:
+  profiles: verb
+  application:
+    name: verb-service
+
+---
+
+spring:
+  profiles: sentence
+  application:
+    name: sentence-service
+
+---
