@@ -16,7 +16,8 @@ words: icicle,refrigerator,blizzard,snowball
 spring:
   profiles: default
 words: boat,book,vote,seat,backpack,partition,groundhog
-server.port=${PORT:${SERVER_PORT:0}}
+server:
+  port=${PORT:${SERVER_PORT:0}}
 
 ---
 
