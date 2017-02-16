@@ -16,6 +16,7 @@ words: icicle,refrigerator,blizzard,snowball
 spring:
   profiles: default
 words: boat,book,vote,seat,backpack,partition,groundhog
+server.port=${PORT:${SERVER_PORT:0}}
 
 ---
 
@@ -29,10 +30,14 @@ spring:
   profiles: adjective
 words: reasonable,leaky,suspicious,ordinary,unlikely
  
- ---
+---
  
 spring: 
   profiles: article
 words: a,the
 
 ---
+
+spring: 
+  profiles: sentence
+ words:
