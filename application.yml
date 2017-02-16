@@ -9,12 +9,16 @@ eureka:
 
 spring:
   profiles: noun
+  application:
+    name: noun-service
 words: icicle,refrigerator,blizzard,snowball
 
 ---
 
 spring:
   profiles: default
+  application:
+    name: noun-service
 words: boat,book,vote,seat,backpack,partition,groundhog
 server:
   port=${PORT:${SERVER_PORT:0}}
@@ -23,21 +27,29 @@ server:
 
 spring:
   profiles: verb
+  application:
+    name: verb-service
 words: ran,knew,had,saw,bought
 
 ---
 
 spring:
   profiles: adjective
+  application:
+    name: adjective-service
 words: reasonable,leaky,suspicious,ordinary,unlikely
  
 ---
  
 spring: 
   profiles: article
+  application:
+    name: article-service
 words: a,the
 
 ---
 
 spring: 
   profiles: sentence
+  application:
+    name: sentence-service
