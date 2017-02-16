@@ -19,7 +19,7 @@ eureka:
 ---
 
 spring:
-  profiles: default
+  profiles: noun-secondary
   application:
     name: noun-service
 words: boat,book,vote,seat,backpack,partition,groundhog
