@@ -65,3 +65,8 @@ spring:
   profiles: sentence
   application:
     name: sentence-service
+wordConfig:
+  lucky-word: Serendipity
+  preamble: The lucky word is
+  
+---
