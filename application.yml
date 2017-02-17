@@ -66,7 +66,7 @@ spring:
   application:
     name: sentence-service
 wordConfig:
-  lucky-word: Irish
+  lucky-word: Serendipity
   preamble: The lucky word is
   
 ---
