@@ -7,6 +7,19 @@ eureka:
 
 ---
 
+zuul:
+  routes:
+    frontend-service:
+      path: /**
+    article-service:
+      path: /services/article-service/**
+    noun-service:
+      path: /services/noun-service/**
+    adjective-service:
+      path: /services/adjective-service/**
+
+---
+
 spring:
   profiles: noun
   application:
