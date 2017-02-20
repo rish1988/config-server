@@ -15,11 +15,15 @@ zuul:
     frontend-service:
       path: /**
     article-service:
-      path: /services/article-service/**
+      path: /api/v1/article/**
     noun-service:
-      path: /services/noun-service/**
+      path: /api/v1/noun/**
     adjective-service:
-      path: /services/adjective-service/**
+      path: /api/v1/adjective/**
+    subject-service:
+      path: /api/v1/subject/**
+    verb-service:
+      path: /api/v1/verb/**
 
 ---
 
