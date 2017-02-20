@@ -7,6 +7,9 @@ eureka:
 
 ---
 
+spring:
+  application:
+    name: api-gateway
 zuul:
   routes:
     frontend-service:
