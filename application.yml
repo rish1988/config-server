@@ -12,8 +12,6 @@ spring:
     name: api-gateway
 zuul:
   routes:
-    #frontend-service:
-    #  path: /**
     article-service:
       path: /api/v1/article/**
     noun-service:
